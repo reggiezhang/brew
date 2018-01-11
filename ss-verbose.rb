@@ -5,8 +5,8 @@
 class SsVerbose < Formula
   desc "Libev port of shadowsocks"
   homepage "https://github.com/reggiezhang/ss-verbose"
-  url "https://github.com/reggiezhang/ss-verbose/archive/v1.2.0.tar.gz"
-  sha256 "704534695e0752f470dff6b7e3197968869775403422c3ef34887f9c6f9e1e23"
+  url "https://github.com/reggiezhang/ss-verbose/archive/v1.2.2.tar.gz"
+  sha256 "7b094e271385b13bf2e6cbd15d71d32d1518700c474d9e435ace68d993bf422d"
 
   depends_on "asciidoc" => :build
   depends_on "xmlto" => :build
