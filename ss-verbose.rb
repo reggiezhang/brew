@@ -22,7 +22,7 @@ class SsVerbose < Formula
     system "./configure", "--prefix=#{prefix}"
     system "make"
 
-    (buildpath/"shadowsocks-libev.json").write <<-EOS.undent
+    (buildpath/"shadowsocks-libev.json").write <<~EOS
       {
           "server":"localhost",
           "server_port":8388,
